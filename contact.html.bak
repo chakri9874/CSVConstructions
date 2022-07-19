@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact us</title>
+<link rel="stylesheet" href="contact.css">
+<style>
+.flex_foot{
+		width: 33.33%px;
+		height: 250px;
+		border: 1px solid black;
+		display: flex;
+	}
+	.flex_foot div{
+		
+		flex: 1;
+	}
+	a.social:link,a.social:visited{
+	color: white;
+	}
+a.social:hover{
+	color: yellow;
+	}
+a.social:active{
+	color: blue;
+	}
+	
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<div class="hero">
+  <nav>
+        <ul class="cl">
+            <h3>
+              <li class="cl" ><a href="contact.html">Contact Us</a></li>
+              <li class="cl"><a href="about.html">About Us</a></li>
+              <li class="cl"><a href="first.html">Home</a></li>
+              <li class="cl" style="float:left;"><h2 style="color:#0A0A0A;padding-left:10px;padding-top:10px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"> Artigo Constructions</h2></li>
+            </h3>
+          </ul>
+    </nav>
+    
+</div>
+<div class="contact">
+	<div>
+		<img class="background" src="https://media.istockphoto.com/photos/dusk-building-site-picture-id1028568006?k=20&m=1028568006&s=612x612&w=0&h=in-YC0RZYTMIejupstn1U2vRc28KjUBAhKLRrTqV18I=">
+	</div>
+	<div class="reach">
+	<h1 class="heading">Reach Us</h1>
+    <div class="name-element">
+    	<label for="name">Name<span><sup>*</sup></span></label>
+		<input class="input" type="text" id = "name" placeholder="Full name"/>
+    </div>
+	
+	<div class="name-element">
+    	<label for="email">Email Id<span><sup>*</sup></span></label>
+		<input class="input" type="text" id = "email" placeholder="Enter your Email id"/>
+    </div>
+	<div class="name-element">
+    	<label for="contact">Contact<span><sup>*</sup></span></label>
+		<input class="input" type="text" id = "contact" placeholder="Enter your mobile number"/>
+    </div>
+	<div class="name-element">
+    	<label for="details">Your Message<span><sup>*</sup></span></label>
+		<textarea class="textarea"  id="details" rows="7" cols="50" placeholder="Enter your message here"></textarea>
+    </div>
+	<div class="btn">
+	<button class="button"   onclick="myFunction()">SEND</button>
+	<script>
+		function myFunction(){
+			window.location.href='contact.html'
+			alert("Message sent! <br> Our staff will contact you soon.Thank You:)");
+			
+		}
+	</script>
+	</div>
+	</div>
+	</div>
+<br>
+<br>
+<div style="background-color:gray;">
+<div class="flex_foot">
+	<div style="background-color:coral;">
+	<h3 align="center" style="margin:18.72px;" >CSV Constructions</h3>
+	<p style="padding-left:5%;padding-right:5%;">CSV Group is a leading real estate developer in Hyderabad that strives for quality and perfection to provide
+		you with the most luxurious and affordable residential and commerical projects</p>
+	<div align="center" style="padding-top:8%;">
+	<a class="social" href="#linkedin" ><i class="fa fa-linkedin" style="font-size:30px;margin:10px;" ></i></a>	
+	<a class="social" href="#twitter" ><i class="fa fa-twitter" style="font-size:30px;margin:10px;"></i></a>
+    <a class="social" href="#instagram" ><i class="fa fa-instagram" style="font-size:30px;margin:10px;"></i></a>
+	<a class="social" href="#facebook" ><i class="fa fa-facebook" style="font-size:26px;margin:12px;"></i></a>
+	</div>	
+</div>
+	<div style="background-color:lightblue;">
+	<h3 style="margin:18.72px;">Navigations:</h3>
+	<ul style="padding-left:13%;">
+		<li><a href="#Home" style="text-decoration:none;color:black;" >Home</a></li>
+		<li><a href="#About Us" style="text-decoration:none;color:black;" >About Us</a></li>
+		<li><a href="#Contact" style="text-decoration:none;color:black;" >Contact</a></li>
+	</ul>
+	</div>
+	<div style="background-color:lightgreen;">
+	<h3 align="center" style="margin:18.72px;" > Contact Us</h3>
+	<p style="padding-left:3%;padding-right:3%;"><b>Corporate Office:</b>2nd Floor,Reddy Complex,Opp.Bajaj Electronics,Road No.3,Shamshabad,Hyderabad,Telangana-501218.</p>
+	
+	<div style="margin:10px;">
+	<h3 align="center" >Phone: </h3>
+	<p align="center" style="line-height:1;margin-top:7px;" > +91 9527252462<br>
+	+91 9435275254</p>
+	</div>
+	
+	<div>
+	<h3 align="center" >Email: </h3>
+	<p align="center" style="line-height:1;margin-top:7px;" > sales@csvconstructions.com<br>
+	info@csvconstructions.com</p>
+	</div>
+	</div>
+</div>
+	<div style="margin-left:41.5%;">
+	<p style="font-size:15px;color:white;padding-bottom:14px;padding-top:14px;"><i class="fa fa-copyright"></i>CSV Constructions,All Rights Reserved 2022</p>
+
+	</div>
+
+</div>
+
+	
+
+</body>
+</html>
+
+
